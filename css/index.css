@@ -1,0 +1,279 @@
+.main {
+    margin-top: 10px;
+    width: 980px;
+    height: 455px;
+    margin-left: 220px;
+}
+
+.focus {
+    float: left;
+    width: 721px;
+    height: 455px;
+}
+
+.focus h3 {
+    margin-left: 40px;
+    margin-top: 60px;
+    font-size: 40px;
+}
+
+.focus p {
+    margin-left: 40px;
+    margin-top: 60px;
+    font-size: 20px;
+}
+
+.newsflash {
+    float: right;
+    width: 250px;
+    height: 455px;
+}
+
+.news {
+    height: 165px;
+    background-color: green;
+    border: 1px solid #e4e4e4;
+}
+
+.news-hd {
+    height: 33px;
+    line-height: 33px;
+    border-bottom: 1px dotted #e4e4e4;
+    padding: 0 15px;
+}
+
+.news-hd h5 {
+    float: left;
+    font-size: 14px;
+}
+
+.news-hd a {
+    float: right;
+}
+
+.news-hd a::after {
+    content: url('https://api.iconify.design/icomoon-free/circle-right.svg?color=yellow&width=9&height=9');
+}
+
+.news-bd {
+    padding: 5px 15px 0;
+}
+
+.news-bd ul li {
+    height: 24px;
+    line-height: 24px;
+}
+
+.lifeservice {
+    overflow: hidden;
+    height: 209px;
+    background-color: purple;
+    border: 1px solid #e4e4e4;
+    border-top: 0;
+}
+
+.lifeservice ul {
+    width: 252px;
+}
+
+.lifeservice ul li {
+    float: left;
+    width: 63px;
+    height: 71px;
+    border-right: 1px solid #e4e4e4;
+    border-bottom: 1px solid #e4e4e4;
+    text-align: center;
+}
+
+.lifeservice ul li:hover {
+    background-color: white;
+}
+
+.lifeservice ul li i {
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    margin-top: 12px;
+}
+
+.lifeservice ul li p {
+    color: pink;
+}
+
+.lifeservice ul li p:hover {
+    color: black;
+}
+
+.bargain:hover {
+    -webkit-transform: translateY(-3px);
+    -ms-transform: translateY(-3px);
+    transform: translateY(-3px);
+    -webkit-box-shadow: 0 0 6px #999;
+    box-shadow: 0 0 6px #999;
+    -webkit-transition: all .5s ease-out;
+    transition: all .5s ease-out;
+}
+
+.bargain {
+    margin-top: 0px;
+}
+
+.recommend {
+    height: 163px;
+    background-color: gray;
+    margin-top: 12px;
+}
+
+.recommend_hd {
+    float: left;
+    height: 163px;
+    width: 205px;
+    background-color: #5c5251;
+}
+
+.recommend_hd:hover {
+    background-color: rgb(171, 11, 211);
+    border: 5px solid #ccc;
+    float: left;
+    margin: 5px;
+    -webkit-transition: margin 0.5s ease-out;
+    -moz-transition: margin 0.5s ease-out;
+    -o-transition: margin 0.5s ease-out;
+}
+
+.recommend_hd p:hover {
+    color: rgb(218, 37, 136);
+}
+
+.recommend_hd img {
+    margin-top: 25px;
+    margin-left: 60px;
+}
+
+.recommend_hd p {
+    font-size: 20px;
+    margin-left: 60px;
+    color: rgb(28, 176, 235);
+}
+
+.recommend_bd {
+    float: left;
+}
+
+.recommend_bd ul li {
+    float: left;
+    position: relative;
+    top: 2px;
+    margin-left: 15px;
+}
+
+.recommend_bd ul li:nth-child(-n+3)::after {
+    content: '';
+    position: absolute;
+    right: -7px;
+    top: 10px;
+    width: 1px;
+    height: 145px;
+    background-color: #ddd;
+    o
+}
+
+.recommend_bd ul li img {
+    -webkit-box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.2);
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.2);
+    -webkit-transition: all 0.5s ease-out;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+}
+
+.recommend_bd ul li img:hover {
+    -webkit-transform: rotate(-7deg);
+    -moz-transform: rotate(-7deg);
+    -o-transform: rotate(-7deg);
+}
+
+.necessities .box_hd {
+    margin-top: 30px;
+    height: 30px;
+    border-bottom: 2px red solid;
+}
+
+.box_hd h3 {
+    float: left;
+    font-size: 18px;
+    color: red;
+    font-weight: 400;
+}
+
+.tab_list {
+    float: right;
+    line-height: 30px;
+}
+
+.tab_list li {
+    float: left;
+}
+
+.tab_list li {
+    margin: 0 15px;
+    font-size: 15px;
+}
+
+.box_bd {
+    height: 361px;
+}
+
+.tab_list_item>div {
+    float: left;
+}
+
+.tab_list_item .col_210 p:hover {
+    color: rgb(14, 200, 247);
+}
+
+.tab_list_item img {
+    transition: all 0.6s cubic-bezier(0.23, 1, 0.320, 1);
+}
+
+.tab_list_item img:hover {
+    transform: scale3d(1.1, 1.1, 1);
+}
+
+.col_210 {
+    width: 208px;
+    background-color: #fff;
+    height: 361px;
+}
+
+.col_210 ul {
+    padding-left: 12px;
+}
+
+.col_210 ul li {
+    float: left;
+    width: 85px;
+    height: 34px;
+    border-bottom: 1px solid black;
+    text-align: center;
+    line-height: 33px;
+    margin-right: 10px;
+}
+
+.col_210 ul img {
+    margin-top: 30px;
+}
+
+.col_330 {
+    width: 328px;
+}
+
+.col_220 {
+    width: 218px;
+    border-left: 1px solid rgb(39, 172, 224);
+}
+
+.col_220 .bb {
+    display: block;
+    border-bottom: 1px solid rgb(39, 172, 224);
+}
